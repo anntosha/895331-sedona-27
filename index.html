@@ -8,9 +8,9 @@
     <header class="main-header">
       <nav class="main-menu">
         <ul class="site-navigation">
-          <li><a href="">Информация</a></li>
-          <li><a href="">Фото и видео</a></li>
-          <li><a href="">Карта штата</a></li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Фото и видео</a></li>
+          <li><a href="#">Карта штата</a></li>
           <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
@@ -93,7 +93,21 @@
           <b>Заинтерисовались?</b>
           <p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостинниц в Седоне</p>
           <a href="" class="">Поиск гостиницы в Седоне</a>
-          <!--Form-->
+          <form class="search" action="https://echo.htmlacademy.ru" method="get">
+            <p class="search-field">
+              <label>Дата заезда:<input type="date" name="trip-start" value="2017-04-24"></label>
+            </p>
+            <p class="search-field">
+              <label>Дата выезда:<input type="date" name="trip-over" value="2017-07-04"></label>
+            </p>
+            <p class="search-field">
+              <label>Взрослые:<input type="number" name="adults" min="1" max="10"></label>
+            </p>
+            <p class="search-field">
+              <label>Дети:<input type="number" name="kids" min="0" max="10"></label>
+            </p>
+            <button type="submit">Найти</button>
+          </form>
         </section>
 
       <section class="map">
@@ -109,9 +123,9 @@
       </div>    
 
       <ul class="social" style="background: black;">
-        <li class="social-icons social-icons-twitter"><a href=""><img src="img/twitter.svg" alt="Ссылка на наш Twitter"></a></li>
-        <li class="social-icons social-icons-facebook"><a href=""><img src="img/fb-icon.svg" alt="Ссылка на наш Facebook"></a></li>
-        <li class="social-icons social-icons-youtube"><a href=""><img src="img/youtube.svg" alt="Ссылка на наш Youtube"></a></li>
+        <li class="social-icons social-icons-twitter"><a href="#"><img src="img/twitter.svg" alt="Ссылка на наш Twitter"></a></li>
+        <li class="social-icons social-icons-facebook"><a href="#"><img src="img/fb-icon.svg" alt="Ссылка на наш Facebook"></a></li>
+        <li class="social-icons social-icons-youtube"><a href="#"><img src="img/youtube.svg" alt="Ссылка на наш Youtube"></a></li>
       </ul>  
       
       <p class="developer">website by

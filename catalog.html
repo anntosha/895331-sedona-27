@@ -20,6 +20,56 @@
     </header>
 
     <main class="container">
+        <section class="filter">
+            <h2 class="visually-hidden">Фильтр поиска жилья</h2>
+            <form class="search-hotel" method="get" action="https://echo.htmlacademy.ru">
+                <fieldset class="search-hotel-field">
+                    <legend class="legend">Инфраструктура:</legend>
+                    <ul class="search-hotel-field-list">
+                        <li>
+                            <input type="checkbox" name="pool" id="pool" checked>
+                            <label for="pool">Бассейн</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="parking" id="parking">
+                            <label for="parking">Парковка</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="wifi" id="wifi">
+                            <label for="wifi">Wi&ndash;Fi</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="search-hotel-field">
+                    <legend class="legend">Тип жилья:</legend>
+                    <ul class="search-hotel-field-list">
+                        <li>
+                            <input type="checkbox" name="hotel" id="hotel" checked>
+                            <label for="hotel">Гостиница</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="motel" id="motel"  checked>
+                            <label for="motel">Мотель</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="apartments" id="apartments"  checked>
+                            <label for="apartments">Апартаменты</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="search-hotel-field">
+                    <legend class="legend">Стоимость в сутки (Р):</legend>
+                    <p>
+                        <label class="range-money" for="ranger">от 0 до 3000</label>
+                    </p>
+                    <input type="range" name="ranger" id="ranger" min="0" max="3000" step="1">
+                </fieldset>
+                <button type="submit">Показать</button>
+            </form>
+        </section>
+
         <section class="hotel">
             <h2 class="visually-hidden">Предложения проживания</h2>
             <div class="hotel-photo">
@@ -101,9 +151,9 @@
         </div> 
   
         <ul class="social" style="background: black;">
-            <li class="social-icons social-icons-twitter"><a href=""><img src="img/twitter.svg" alt="Ссылка на наш Twitter"></a></li>
-            <li class="social-icons social-icons-facebook"><a href=""><img src="img/fb-icon.svg" alt="Ссылка на наш Facebook"></a></li>
-            <li class="social-icons social-icons-youtube"><a href=""><img src="img/youtube.svg" alt="Ссылка на наш Youtube"></a></li>
+            <li class="social-icons social-icons-twitter"><a href="#"><img src="img/twitter.svg" alt="Ссылка на наш Twitter"></a></li>
+            <li class="social-icons social-icons-facebook"><a href="#"><img src="img/fb-icon.svg" alt="Ссылка на наш Facebook"></a></li>
+            <li class="social-icons social-icons-youtube"><a href="#"><img src="img/youtube.svg" alt="Ссылка на наш Youtube"></a></li>
         </ul> 
         
         <p class="developer">website by
