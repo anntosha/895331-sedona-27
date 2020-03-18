@@ -379,6 +379,13 @@ p.line-break {
     background-color: #503e33;
 }
 
+@keyframes check-out {
+    0% { transform: translateY(0); }
+    20% { transform: translateY(15px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+    }
+
 .search-form {
     position: absolute;
     width: 458px;
@@ -394,6 +401,13 @@ p.line-break {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+
+    animation-name: check-out;
+    animation-duration: 0.7s;
+}
+
+.search-form-close {
+    display: none;
 }
 
 p.search-field {
@@ -527,6 +541,8 @@ button.plus::after {
 }
 
 .search-field-button {
+    width: 458px;
+
     margin: 0;
     margin-top: 23px;
     padding: 16px;
