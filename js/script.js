@@ -11,9 +11,9 @@ button.addEventListener("click", function(evt){
  popup.classList.toggle("search-form-close");
 });
 
-form.addEventListener("submit", function(){
+form.addEventListener("submit", function(evt){
   if (!start.value || !over.value || !adults.value || !kids.value) {
      evt.preventDefault();
      console.log("Enter value!");
     }
- })
+ });
