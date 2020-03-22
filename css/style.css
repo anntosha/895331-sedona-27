@@ -100,7 +100,9 @@ body {
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%);
 }
 
 .button {
@@ -149,7 +151,7 @@ a.active:hover {
 .reasons-caption {
     width: 1200px;
     min-height: 155px;
-    padding-top: 62px;
+    padding-top: 61px;
 
     text-align: center;
 }
@@ -212,7 +214,7 @@ a.active:hover {
 }
 
 .reasons-item p:last-child {
-    padding-top: 23px;
+    padding-top: 20px;
 }
 
 .promo {
@@ -229,8 +231,7 @@ a.active:hover {
     position: relative;
 
     margin: 0 auto;
-    padding-top: 162px;
-    padding-bottom: 85px;
+    padding-top: 161px;
 }
 
 .promo-item b {
@@ -413,6 +414,7 @@ p.line-break {
     min-height: 286px;
     margin: 0 316px;
     padding: 55px;
+    padding-top: 53px;
 
     background-color: #ffffff;
     display: -webkit-box;
@@ -438,7 +440,7 @@ p.search-field {
     position: relative;
     width: 458px;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
     padding: 0;
 
     font-weight: 700;
@@ -464,16 +466,15 @@ p.search-field {
 }
 
 .search-field input {
-    position: relative;
     width: 288px;
-    padding: 5px 50px 8px 13px;
+    padding: 9px 50px 8px 13px;
     border: 2px solid transparent;
     
-    font-size: inherit;
-    line-height: inherit;
-    font-weight: inherit;
-    text-transform: inherit;
-    color: inherit;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
 
     background-color: #f2f2f2;
 } 
@@ -490,8 +491,8 @@ p.search-field {
 
 .search-field svg {
     position: absolute;
-    top: 5px;
-    left: 430px;
+    top: 7px;
+    left: 428px;
     opacity: 0.3;
 }
 
@@ -570,7 +571,7 @@ button.plus::after {
     width: 458px;
 
     margin: 0;
-    margin-top: 22px;
+    margin-top: 24px;
     padding: 17px 16px;
 
     font-size: 21px;
@@ -739,7 +740,7 @@ button.plus::after {
 }
 
 .search-hotel-field:last-child legend {
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 
 .search-hotel-field ul {
@@ -750,7 +751,7 @@ button.plus::after {
 .search-hotel-field-list li {
     list-style: none;
     margin: 0;
-    padding-top: 25px;
+    padding-top: 24px;
 }
 
 .price-controls {
@@ -871,7 +872,7 @@ button.plus::after {
     height: 36px;
     display: block;
     margin: 0;
-    margin-left: 83px;
+    margin-left: 85px;
     padding: 0 35px;
   
     font-size: 14px;
@@ -914,7 +915,7 @@ button.plus::after {
 }
 
 .result p {
-    padding-top: 19px;
+    padding-top: 16px;
 
     font-size: 12px;
     font-weight: 400;
@@ -952,7 +953,7 @@ button.plus::after {
 .sort {
     float: right;
 
-    padding-top: 32px;
+    padding-top: 30px;
 }
 
 .sort a {
@@ -1015,14 +1016,14 @@ svg.active-sort path {
 
 .hotel-type {
     width: 110px;
-    margin-top: -6px;
+    margin-top: -7px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
 
 .hotel-order {
     width: 142px;
-    margin-top: -6px;
+    margin-top: -7px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
@@ -1071,7 +1072,7 @@ svg.active-sort path {
 
 .hotel-item h3 {
     margin: 0;
-    margin-top: -4px;
+    margin-top: -6px;
     padding: 0;
 
     font-size: 21px;
@@ -1148,6 +1149,8 @@ a.hotel-name {
     display: flex;
     -ms-flex-line-pack: center;
         align-content: center;
+    opacity: 1;
+        
 }
 
 .transparent-footer {
@@ -1156,8 +1159,8 @@ a.hotel-name {
 }
 
 .contacts {
-    margin-left: 124px;
-    margin-top: 31px;
+    margin-left: 126px;
+    margin-top: 30px;
 
     font-size: 21px;
     font-weight: 700;
@@ -1176,8 +1179,8 @@ a.hotel-name {
 
 .social {
     width: 150px;
-    margin-top: 37px;
-    margin-left: 177px;
+    margin-top: 35px;
+    margin-left: 175px;
     padding: 0;
 
     list-style: none;
@@ -1242,7 +1245,7 @@ a.hotel-name {
     width: 200px;
     min-height: 43px;
 
-    padding-top: 33px;
+    padding-top: 31px;
     margin-left: 227px;
 }
 
