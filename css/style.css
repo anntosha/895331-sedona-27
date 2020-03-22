@@ -99,7 +99,8 @@ body {
 .main-menu-logo {
     position: absolute;
     top: 0;
-    left: 44%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .button {
@@ -465,7 +466,7 @@ p.search-field {
 .search-field input {
     position: relative;
     width: 288px;
-    padding: 5px 50px 5px 13px;
+    padding: 5px 50px 8px 13px;
     border: 2px solid transparent;
     
     font-size: inherit;
@@ -489,7 +490,7 @@ p.search-field {
 
 .search-field svg {
     position: absolute;
-    top: 8px;
+    top: 5px;
     left: 430px;
     opacity: 0.3;
 }
